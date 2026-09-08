@@ -1,0 +1,27 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "description": "A simple http server for an assignment",
+  "homepage": "https://github.com/EmmaR-RIT/Simple-HTTP-Assignment-Start#readme",
+  "bugs": {
+    "url": "https://github.com/EmmaR-RIT/Simple-HTTP-Assignment-Start/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaR-RIT/Simple-HTTP-Assignment-Start.git"
+  },
+  "license": "ISC",
+  "author": "Emma Rausch",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\"",
+    "start": "node ./src/server.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "global": "^4.4.0"
+  }
+}
